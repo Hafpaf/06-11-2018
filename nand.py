@@ -53,4 +53,4 @@ for row in table:
             return 0
 
     q = pv()
-    print(table[0],"=", q)
+    print(row,"=",q)
