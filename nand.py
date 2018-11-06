@@ -1,12 +1,12 @@
-a = float(input("text", ))
-b = float(input("text", ))
-c = float(input("text", ))
+a = float(input("a: " , ))
+b = float(input("b: " , ))
+c = float(input("c: " , ))
 
-def polsk():
-    if b+c == 1:
+def polsk(): #
+    if b+c == 0 and a == 0:
         return 1
-    if
-        return
+    else:
+        return 0
 
 def polak():
     if b == 1:
@@ -15,16 +15,16 @@ def polak():
         return 1
 
 def vodka():
-    if (a + polak) == 1:
+    if (a + polak()) == 1:
         return 0
-    elif:
+    else:
          return 1
 
 def pv():
-    if vodka + polak == 1:
+    if vodka() + polak() == 1:
         return 1
     else:
         return 0
 
-q = pv
+q = pv()
 print(q)
