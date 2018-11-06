@@ -1,6 +1,22 @@
+import numpy as np
+'''
 a = float(input("a: " , ))
 b = float(input("b: " , ))
 c = float(input("c: " , ))
+'''
+
+tabel = [[1,1,1],
+    [1,1,0],
+    [1,0,1],
+    [0,1,1],
+    [1,0,0],
+    [0,0,0]]
+
+print(A)
+
+for x in range(0,5):
+    a = []
+    tabel + [0]
 
 def polsk(): #
     if b+c == 0 and a == 0:
@@ -28,3 +44,4 @@ def pv():
 
 q = pv()
 print(q)
+'''
